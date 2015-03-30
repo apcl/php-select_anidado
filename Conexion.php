@@ -6,7 +6,7 @@ class Conexion{
     private $user;
     private $pass;
          
-    public function conectar ($host = "localhost", $db = "quiensabe", $user = "acofre", $pass = "acofre"){
+    public function conectar ($host = "localhost", $db = "quiensabe", $user = "root", $pass = ""){
          
         $this->host = $host;
         $this->db = $db;
